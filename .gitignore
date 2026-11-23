@@ -1,0 +1,15 @@
+.env
+**/.env
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/*.db
+frontend/dist/
+**/.pytest_cache/
+**/.qa/
+**/*.tsbuildinfo
+**/.ruff_cache/
+**/.pnpm-store/
+FoodStore_Entrega.zip
