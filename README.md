@@ -2,8 +2,8 @@
 
 Aplicación web para un negocio de comidas. Permite registrarse, consultar el catálogo, armar un carrito, confirmar pedidos con entrega a domicilio y seguir su estado. El administrador gestiona categorías, productos, stock, pedidos y usuarios.
 
-- **Repositorio público de GitHub:** PENDIENTE — completar con la URL real antes de entregar.
-- **Video demostrativo público (10–15 minutos):** PENDIENTE — grabar, publicar y completar con la URL real.
+- **Repositorio público de GitHub:** https://github.com/mvictoriavolpe/FoodStore-TPI-Programacion-IV
+- **Video demostrativo público (10–15 minutos):** https://youtu.be/-DrjK2S5mKo
 - **Entrega indicada:** 24/11/2026 a las 23:59 (Argentina).
 
 ## Tecnologías
@@ -214,10 +214,3 @@ Desde la raíz:
 
 Genera `FoodStore_Entrega.zip`, con raíz `FoodStore/` y `backend/`, `frontend/`, `README.md`. Incluye los ejemplos `.env.example` y el lockfile. Excluye `node_modules`, entornos virtuales, `.env` reales, bases de datos, builds, cachés, archivos temporales, metadatos Git y videos. El generador comprueba la integridad del ZIP y las exclusiones.
 
-Antes de entregar:
-
-1. Publicar el código en un repositorio público de GitHub y completar la URL al comienzo de este README.
-2. Grabar un video de 10–15 minutos: presentación con cámara al inicio, registro/login, compra, descuento de stock, administración, cancelación y restitución. Publicar su enlace y completarlo en este README.
-3. Regenerar el ZIP después de completar los enlaces. No incluir el video dentro del archivo.
-
-Los enlaces están identificados como pendientes porque no se proporcionaron URLs reales.
