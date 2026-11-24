@@ -203,14 +203,3 @@ Comprobaciones realizadas el 23/11/2026 con Python 3.13.2, Node 24.14.1, pnpm 9.
 - `/docs`, `/redoc`, `/openapi.json` y `/api/v1/health`: HTTP 200.
 
 Las capturas y el resultado del navegador están en `backend/.qa/` durante la revisión local; se excluyen de la entrega. Pytest informa una advertencia de deprecación de Starlette/AnyIO que no impide las pruebas. PostgreSQL y un despliegue público requieren verificación en el entorno correspondiente.
-
-## Preparación de entrega
-
-Desde la raíz:
-
-```powershell
-.\backend\.venv\Scripts\python.exe backend/scripts/package_delivery.py
-```
-
-Genera `FoodStore_Entrega.zip`, con raíz `FoodStore/` y `backend/`, `frontend/`, `README.md`. Incluye los ejemplos `.env.example` y el lockfile. Excluye `node_modules`, entornos virtuales, `.env` reales, bases de datos, builds, cachés, archivos temporales, metadatos Git y videos. El generador comprueba la integridad del ZIP y las exclusiones.
-
